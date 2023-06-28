@@ -1,3 +1,17 @@
 #myId {
-    color: blue;
+    color: white;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: salmon;
+
 }
+
+input{
+    font-size: 12px;
+    padding: 5px 7px;
+    margin: 10px 0;
+}
+
