@@ -9,7 +9,7 @@ import path from 'path';
 const app = express();
 dotenv.config();
 
-app.use(express.static('public'));
+app.use(express.static('Public'));
 app.use(express.urlencoded({ extended: true }))
 
 const __dirname = path.resolve();
