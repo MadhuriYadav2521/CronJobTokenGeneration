@@ -36,13 +36,14 @@ app.get("/ping", (req, res) => {
 
 
 app.get("/urlencoded", (req, res) => {
-    res.send(
-        `<form method='post' action='/login'>
-            <input name="email" placeholder="text" />
-            <input name="password" type="password"  placeholder="password"/>
-            <input type='submit'id="myId" value="Login"/>
-        </form>`
-    )
+    // res.send(
+    //     `<form method='post' action='/login'>
+    //         <input name="email" placeholder="text" />
+    //         <input name="password" type="password"  placeholder="password"/>
+    //         <input type='submit'id="myId" value="Login"/>
+    //     </form>`
+    // )
+    return res.sendFile(__dirname + '/Public/login.html');
 })
 
 app.post('/login', (req, res) => {
