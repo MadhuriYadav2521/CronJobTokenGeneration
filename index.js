@@ -39,7 +39,7 @@ app.get("/urlencoded", (req, res) => {
     res.send(
         `<form method='post' action='/login'>
             <input name="email" placeholder="text" />
-            <input name="password"  placeholder="password"/>
+            <input name="password" type="password"  placeholder="password"/>
             <input type='submit' value="LOgin"/>
         </form>`
     )
