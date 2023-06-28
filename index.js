@@ -31,7 +31,7 @@ app.use('/api/v1',router);
 
 
 app.get("/ping", (req, res) => {
-    return res.sendFile(__dirname + '/public/index.html');
+    return res.sendFile(__dirname + '/Public/index.html');
 })
 
 
